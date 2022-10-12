@@ -7,7 +7,10 @@ import time as ti
 sorted_codes = pd.read_csv('final_result.csv')
 sorted_codes
 
-while(True):
+d = datetime.utcnow()
+
+while d.hour < 4:
+
     for i in range(1,len(sorted_codes)):
         print(sorted_codes.loc[i, "code"])
 
@@ -163,3 +166,4 @@ while(True):
             [breeze.cancel_order(exchange_code=stock_type,order_id=i) for i in list(order_list[order_list['order_type']=='StopLoss']['order_id'])]
         
     ti.sleep(180)
+    d = datetime.utcnow()

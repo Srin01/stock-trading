@@ -9,7 +9,7 @@ sorted_codes
 
 d = datetime.utcnow()
 
-while d.hour < 16:
+while d.hour < 4:
 
     for i in range(1,len(sorted_codes)):
         print(sorted_codes.loc[i, "code"])

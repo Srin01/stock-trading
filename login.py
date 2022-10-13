@@ -8,7 +8,7 @@
 
 # username=''
 # password=''
-session_key='1762788'
+session_key='1770346'
 api_key='77u105178j2!70(6gj01w9^452R1S3n9'
 api_secret= 'p333)331Uj587#J7o*6E4f656&u201v0'
 current_expiry_dt = "2022-10-13T06:00:00.000Z"
